@@ -1,0 +1,40 @@
+# ── Backend ────────────────────────────────────────────────
+backend/__pycache__/
+backend/**/__pycache__/
+backend/.env
+backend/uploads/
+backend/*.txt
+backend/*.log
+
+# ── Frontend ────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# ── Project Documentation (do not push) ────────────────────
+Application_Development_Report.*
+Project Index- Guidelines.pdf
+Project_Explanation_Guide.md
+Project_Report.html
+project_documentation*
+project_guide_walkthrough.md
+diagrams/
+
+# ── OS generated files ──────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE / Editor ────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ── Python virtual environments ─────────────────────────────
+venv/
+.venv/
+env/
+*.pyc
+*.pyo
